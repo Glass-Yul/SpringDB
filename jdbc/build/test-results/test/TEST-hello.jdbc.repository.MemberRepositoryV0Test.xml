@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.jdbc.repository.MemberRepositoryV0Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-19T08:11:51" hostname="DESKTOP-6TVLGBC" time="0.081">
+  <properties/>
+  <testcase name="crud()" classname="hello.jdbc.repository.MemberRepositoryV0Test" time="0.081"/>
+  <system-out><![CDATA[17:11:52.030 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn0: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+17:11:52.036 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn1: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+17:11:52.038 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV0Test -- findMember=Member(memberId=memberD, money=1000)
+17:11:52.059 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn2: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+17:11:52.060 [Test worker] INFO hello.jdbc.repository.MemberRepositoryV0 -- resultSize=1
+17:11:52.062 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn3: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+17:11:52.065 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn4: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+17:11:52.068 [Test worker] INFO hello.jdbc.connection.DBConnectionUtil -- get connection=conn5: url=jdbc:h2:tcp://localhost/~/test user=SA, class=class org.h2.jdbc.JdbcConnection
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
